@@ -1,2 +1,2 @@
 require "mongoid/votable"
-require 'mongoid/vote"
+require "mongoid/vote"
