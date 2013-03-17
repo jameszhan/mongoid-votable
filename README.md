@@ -18,7 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
+~~~ruby
+class Topic
+  include Mongoid::Document
+  include Mongoid::Votable
+  
+end
+~~~
 
+~~~ruby
+topic.vote!(1, user)
+topic.vote!(-1, user)
+
+topic.vote!(10, user)
+
+topics = Topic.voted_by(user)
+~~~
 
 ## Contributing
 
