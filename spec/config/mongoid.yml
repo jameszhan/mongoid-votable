@@ -1,0 +1,6 @@
+test:
+  sessions:
+    default:
+      database: mongoid-votable_test
+      hosts:
+        - localhost:27017

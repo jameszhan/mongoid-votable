@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency("mongoid",  [">= 3.0.0"])
   spec.add_dependency("activesupport", [">= 3.0.0"])
 
+  spec.add_development_dependency "factory_girl"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
